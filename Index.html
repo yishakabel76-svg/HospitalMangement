@@ -18,6 +18,7 @@
                 <li><a href="#services">Our Services</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#register">Register</a></li> 
             </ul>
         </nav>
     </header>
@@ -53,6 +54,69 @@
                 Address: Addis Ababa, Ethiopia
             </address>
         </section>
+        <section id="register">
+        <h2>Patient Registration</h2>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required>
+                </p>
+
+                <p>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" id="dob" name="dob">
+                </p>
+
+                <p>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" minlength="6" required>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Medical Details</legend>
+
+                <p>
+                    <label for="department">Department:</label><br>
+                    <select id="department" name="department">
+                        <option value="">-- Select --</option>
+                        <option value="general">General</option>
+                        <option value="cardiology">Cardiology</option>
+                        <option value="pediatrics">Pediatrics</option>
+                        <option value="emergency">Emergency</option>
+                    </select>
+                </p>
+
+                <p>Gender:</p>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+
+                <p>
+                    <label for="symptoms">Describe your symptoms:</label><br>
+                    <textarea id="symptoms" name="symptoms" rows="4" cols="40"></textarea>
+                </p>
+            </fieldset>
+
+            <p>
+                <button type="submit">Register</button>
+                <button type="reset">Clear</button>
+            </p>
+        </form>
+    </section>
     </main>
 
     <footer>
