@@ -59,8 +59,8 @@ A single-page **Hospital Management System** built with semantic HTML5. The page
 ---
 
 ## Status Summary
-> ✅ **HTML foundation complete** — semantic structure, navigation, content sections, and a functional patient registration form are in place. Ready to move on to tables and styling.
+>  **HTML foundation complete** — semantic structure, navigation, content sections, and a functional patient registration form are in place. 
 
 ---
 
-Want a **shorter version** (e.g., 5-line commit summary), a **longer version** (with screenshots placeholders), or a **`PROGRESS.md` file format** you can commit to the repo?
+
