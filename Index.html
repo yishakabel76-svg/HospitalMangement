@@ -18,7 +18,8 @@
                 <li><a href="#services">Our Services</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#register">Register</a></li> 
+                <li><a href="#register">Register</a></li>
+                <li><a href="#appointment">Book Appointment</a></li> 
             </ul>
         </nav>
     </header>
@@ -118,6 +119,53 @@
         </form>
     </section>
     </main>
+
+        <section id="appointment">
+            <h2>Book an Appointment</h2>
+            <p>Schedule a visit with one of our doctors.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Appointment Details</legend>
+
+                    <p>
+                        <label for="patient-name">Patient Name:</label><br>
+                        <input type="text" id="patient-name" name="patient-name" required>
+                    </p>
+
+                    <p>
+                        <label for="appt-department">Department:</label><br>
+                        <select id="appt-department" name="appt-department">
+                            <option value="">-- Select --</option>
+                            <option value="general">General</option>
+                            <option value="cardiology">Cardiology</option>
+                            <option value="pediatrics">Pediatrics</option>
+                            <option value="emergency">Emergency</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="appt-date">Preferred Date:</label><br>
+                        <input type="date" id="appt-date" name="appt-date" required>
+                    </p>
+
+                    <p>
+                        <label for="appt-time">Preferred Time:</label><br>
+                        <input type="time" id="appt-time" name="appt-time" required>
+                    </p>
+
+                    <p>
+                        <label for="appt-notes">Additional Notes:</label><br>
+                        <textarea id="appt-notes" name="appt-notes" rows="3" cols="40"></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Book Appointment</button>
+                    <button type="reset">Clear</button>
+                </p>
+            </form>
+        </section>
 
     <footer>
         <p>&copy; 2026 Hospital Management System. All rights reserved.</p>
